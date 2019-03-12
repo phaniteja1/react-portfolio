@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Menu } from "antd";
 import { Link, withRouter } from "react-router-dom";
 
+import logo from "../logo.png";
+
 function Navigation(props) {
   const getRouteKey = routePath => {
     switch (routePath) {
@@ -30,7 +32,9 @@ function Navigation(props) {
   return (
     <div className="navigation">
       <div className="logo">
-        <span>PhaniTeja.me</span>
+        <span>
+          <img src={logo} alt="logo" />
+        </span>
       </div>
 
       <Menu
@@ -43,22 +47,10 @@ function Navigation(props) {
           Home
           <Link to="/" />
         </Menu.Item>
-        {/* <Menu.Item key="2">
-          About
-          <Link to="/about" />
-        </Menu.Item>
-        <Menu.Item key="3">
-          Portfolio
-          <Link to="/portfolio" />
-        </Menu.Item>
-        <Menu.Item key="4">
-          Projects
-          <Link to="/projects" />
-        </Menu.Item>
-        <Menu.Item key="=5">
-          Contact
-          <Link to="/contact" />
-        </Menu.Item> */}
+        <Menu.Item key="2">About</Menu.Item>
+        <Menu.Item key="3">Portfolio</Menu.Item>
+        <Menu.Item key="4">Projects</Menu.Item>
+        <Menu.Item key="=5">Contact</Menu.Item>
       </Menu>
     </div>
   );

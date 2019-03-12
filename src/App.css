@@ -9,9 +9,35 @@
   text-align: right;
 }
 
-.ant-layout-content {
+.ant-layout {
   background: white;
-  font-weight: 100;
+  margin: 0 10%;
+}
+
+.ant-layout-header {
+  background: white;
+}
+
+.main .title {
+  margin-top: 5%;
+  font-size: 2rem;
+}
+
+.main .content-footer {
+  margin-top: 2rem;
+}
+
+.main .content-footer .anticon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.main .sub-title {
+  font-weight: 300;
+}
+
+.main .section-image {
+  width: 70%;
 }
 
 /* .anticon-loading {
