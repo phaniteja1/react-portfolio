@@ -7,8 +7,6 @@ import { Layout } from "antd";
 
 import Navigation from "./Navigation";
 import Home from "./Home";
-import Coders from "./Coders";
-import Profile from "./Profile";
 
 const { Header, Content } = Layout;
 
@@ -22,8 +20,6 @@ function App() {
           </Header>
           <Content>
             <Route exact path="/" component={Home} />
-            <Route exact path="/coders" component={Coders} />
-            <Route exact path="/profile" component={Profile} />
           </Content>
         </Layout>
       </div>

@@ -1,5 +1,5 @@
 {
-  "name": "fellow-coders-ui",
+  "name": "personal-portfolio-webapp",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": " yarn build",
-    "deploy": "aws s3 sync build/ s3://fellow-coders-ui",
+    "deploy": "aws s3 sync build/ s3://personal-portfolio-webapp",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
