@@ -18,8 +18,12 @@
   background: white;
 }
 
+/* .main {
+  margin-top: 4rem;
+} */
+
 .main .title {
-  margin-top: 5%;
+  margin-top: 10%;
   font-size: 2rem;
 }
 
