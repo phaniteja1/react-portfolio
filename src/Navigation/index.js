@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Menu, Icon } from "antd";
+import { Menu } from "antd";
 import { Link, withRouter } from "react-router-dom";
 
 function Navigation(props) {
@@ -7,10 +7,14 @@ function Navigation(props) {
     switch (routePath) {
       case "/":
         return "1";
-      case "/coders":
+      case "/about":
         return "2";
-      case "/profile":
+      case "/portfolio":
         return "3";
+      case "/projects":
+        return "4";
+      case "/contact":
+        return "5";
       default:
         return "1";
     }
@@ -26,7 +30,7 @@ function Navigation(props) {
   return (
     <div className="navigation">
       <div className="logo">
-        <span>Fellow Coders</span>
+        <span>PhaniTeja.me</span>
       </div>
 
       <Menu
@@ -36,20 +40,25 @@ function Navigation(props) {
         style={{ lineHeight: "64px" }}
       >
         <Menu.Item key="1">
-          <Icon type="home" />
           Home
           <Link to="/" />
         </Menu.Item>
-        <Menu.Item key="2">
-          <Icon type="code" />
-          Coders
-          <Link to="/coders" />
+        {/* <Menu.Item key="2">
+          About
+          <Link to="/about" />
         </Menu.Item>
         <Menu.Item key="3">
-          <Icon type="user" />
-          Profile
-          <Link to="/profile" />
+          Portfolio
+          <Link to="/portfolio" />
         </Menu.Item>
+        <Menu.Item key="4">
+          Projects
+          <Link to="/projects" />
+        </Menu.Item>
+        <Menu.Item key="=5">
+          Contact
+          <Link to="/contact" />
+        </Menu.Item> */}
       </Menu>
     </div>
   );
