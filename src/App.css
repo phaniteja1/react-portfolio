@@ -18,10 +18,6 @@
   background: white;
 }
 
-/* .main {
-  margin-top: 4rem;
-} */
-
 .main .title {
   margin-top: 10%;
   font-size: 2rem;
@@ -43,12 +39,3 @@
 .main .section-image {
   width: 70%;
 }
-
-/* .anticon-loading {
-  font-size: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #08c;
-  height: 50vh;
-} */
