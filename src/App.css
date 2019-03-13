@@ -15,7 +15,7 @@
   height: 100vh;
 }
 
-.ant-layout-content {
+.ant-layout-content .main {
   height: 100vh;
   align-items: center;
   display: flex;
@@ -49,4 +49,17 @@
 
 .main .section-image {
   width: 100%;
+}
+
+.projects {
+  margin-top: 2rem;
+}
+
+.projects .project-content {
+  padding: 1.5rem;
+}
+
+.projects .project-content .anticon-link {
+  margin-left: 0.5rem;
+  font-size: 1.1rem;
 }

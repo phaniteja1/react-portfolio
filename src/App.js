@@ -7,6 +7,7 @@ import { Layout } from "antd";
 
 import Navigation from "./Navigation";
 import Home from "./Home";
+import Projects from "./Projects";
 
 const { Header, Content } = Layout;
 
@@ -20,6 +21,7 @@ function App() {
           </Header>
           <Content>
             <Route exact path="/" component={Home} />
+            <Route exact path="/projects" component={Projects} />
           </Content>
         </Layout>
       </div>

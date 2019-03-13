@@ -49,7 +49,10 @@ function Navigation(props) {
         </Menu.Item>
         <Menu.Item key="2">About</Menu.Item>
         <Menu.Item key="3">Portfolio</Menu.Item>
-        <Menu.Item key="4">Projects</Menu.Item>
+        <Menu.Item key="4">
+          Projects
+          <Link to="/projects" />
+        </Menu.Item>
         <Menu.Item key="=5">Contact</Menu.Item>
       </Menu>
     </div>
