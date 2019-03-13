@@ -71,7 +71,7 @@ function Photography() {
   };
   return (
     <div className="photography">
-      <Gallery photos={photos} onClick={openLightbox} />
+      <Gallery photos={photos} onClick={openLightbox} margin={6} />
       <Lightbox
         images={photos}
         onClose={closeLightbox}

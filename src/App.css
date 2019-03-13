@@ -68,10 +68,11 @@
   font-size: 1.1rem;
 }
 
-.photography .react-photo-gallery--gallery {
-  margin-top: 2rem;
+.photography {
+  margin: 4rem;
 }
 
 .photography .react-photo-gallery--gallery img {
   margin: 0.5rem;
+  border: 1px solid lightgray;
 }
