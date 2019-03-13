@@ -51,7 +51,7 @@ function Home() {
                   trigger="hover"
                 >
                   <a
-                    href="mailto:someone@example.com?Subject=Hello%World!"
+                    href="mailto:phaniteja.one@gmail.com?Subject=Hello%World!"
                     target="_top"
                   >
                     <Icon type="mail" />
