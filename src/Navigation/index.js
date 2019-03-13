@@ -15,8 +15,10 @@ function Navigation(props) {
         return "3";
       case "/projects":
         return "4";
-      case "/contact":
+      case "/photography":
         return "5";
+      case "/contact":
+        return "6";
       default:
         return "1";
     }
@@ -52,6 +54,10 @@ function Navigation(props) {
         <Menu.Item key="4">
           Projects
           <Link to="/projects" />
+        </Menu.Item>
+        <Menu.Item key="5">
+          Photography
+          <Link to="/photography" />
         </Menu.Item>
         {/* <Menu.Item key="=5">Contact</Menu.Item> */}
       </Menu>

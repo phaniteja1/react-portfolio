@@ -67,3 +67,11 @@
   margin-left: 0.5rem;
   font-size: 1.1rem;
 }
+
+.photography .react-photo-gallery--gallery {
+  margin-top: 2rem;
+}
+
+.photography .react-photo-gallery--gallery img {
+  margin: 0.5rem;
+}
