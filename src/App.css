@@ -12,6 +12,17 @@
 .ant-layout {
   background: white;
   margin: 0 10%;
+  height: 100vh;
+}
+
+.ant-layout-content {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+
+.ant-layout-header {
+  background: white;
 }
 
 .ant-layout-header {
@@ -37,5 +48,5 @@
 }
 
 .main .section-image {
-  width: 70%;
+  width: 100%;
 }
