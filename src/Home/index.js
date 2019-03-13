@@ -22,7 +22,7 @@ function Home() {
             </Col>
             <Row>
               <Col span={6} />
-              <Col span={6} className="content-footer">
+              <Col span={4} className="content-footer">
                 <Popover
                   placement="bottom"
                   content="Github Profile"
@@ -33,7 +33,7 @@ function Home() {
                   </a>
                 </Popover>
               </Col>
-              <Col span={6} className="content-footer">
+              <Col span={4} className="content-footer">
                 <Popover
                   placement="bottom"
                   content="Linkedin Profile"
@@ -41,6 +41,20 @@ function Home() {
                 >
                   <a href="https://www.linkedin.com/in/phanitejaone">
                     <Icon type="linkedin" />
+                  </a>
+                </Popover>
+              </Col>
+              <Col span={4} className="content-footer">
+                <Popover
+                  placement="bottom"
+                  content="Send Email"
+                  trigger="hover"
+                >
+                  <a
+                    href="mailto:someone@example.com?Subject=Hello%World!"
+                    target="_top"
+                  >
+                    <Icon type="mail" />
                   </a>
                 </Popover>
               </Col>
