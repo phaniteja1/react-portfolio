@@ -1,8 +1,12 @@
-.logo {
+.logo-section {
   width: 220px;
   height: 31px;
   padding-left: 20px;
   float: left;
+}
+
+.logo-section img {
+  width: 55px;
 }
 
 .navigation .ant-menu {

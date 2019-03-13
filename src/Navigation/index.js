@@ -31,7 +31,7 @@ function Navigation(props) {
 
   return (
     <div className="navigation">
-      <div className="logo">
+      <div className="logo-section">
         <span>
           <img src={logo} alt="logo" />
         </span>
