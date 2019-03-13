@@ -76,3 +76,13 @@
   margin: 0.5rem;
   border: 1px solid lightgray;
 }
+
+.about {
+  margin: 8rem;
+}
+
+.about .about-desc {
+  font-weight: 300;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+}

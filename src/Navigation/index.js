@@ -49,8 +49,11 @@ function Navigation(props) {
           Home
           <Link to="/" />
         </Menu.Item>
-        {/* <Menu.Item key="2">About</Menu.Item>
-        <Menu.Item key="3">Portfolio</Menu.Item> */}
+        <Menu.Item key="2">
+          About
+          <Link to="/about" />
+        </Menu.Item>
+        {/* <Menu.Item key="3">Portfolio</Menu.Item> */}
         <Menu.Item key="4">
           Projects
           <Link to="/projects" />
